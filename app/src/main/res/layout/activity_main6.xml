@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:text="超崩潰！川普才剛贏得美國總統，就有人已經在倒數！ 狂人川普入主白宮成為美國新總統震驚全世界，許多無法接受現實的美國人走上街頭抗議，就連網路媒體也跟著崩潰，「BuzzFeed」網站就在臉書開始倒數「2020」大選，並發文表示「我們只要再忍4年！」，幽默自嘲程度令人發噱。 「BuzzFeed」的倒數吸引近8萬人「共襄盛舉」、超過66萬人分享，將近4千萬人觀看，有網友留言「只剩下4年，我們快到了！」「川普會不會是最後一任美國總統...」「感謝！我們正需要這個！」（張鈜閔／綜合報導）"
+            android:layout_width="match_parent"
+            android:layout_height="475dp"
+            android:id="@+id/textView11"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:text="崩潰！川普才剛入選　他們倒數「再忍4年」"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>

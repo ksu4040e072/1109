@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:text="川普為何能當選？不要以為真的是因為他是個瘋子，大家喜歡瘋子才投給他！有資深駐美記者分析，其實只是基於一個非常簡單的原因，且在任何國家都有可能出現同樣的結局！ 三立柱美特派記者范琪斐分析這位「狂人」能獲勝的原因，並非只是因為他的狂妄作風太有特色，而是只是因為「美國社會現在有很嚴重的經濟焦慮症，經濟成長也許不錯，但貧富不均情況很嚴重，這加劇了美國社會一直都存在的種族及宗教衝突。這種焦慮感，尤其又以中下階層的白種男性，對自己的社會及經濟地位下降毫無主控能力的這群人，特別明顯。」 范琪斐更認為，這種川普旋風，不是美國人瘋了！而是在其他國家，也同樣有可能發生，「一個國家只要有一群人經濟力突降，又找不到出口時，就給了像川普這樣的政客絕佳的舞臺。」(即時新聞中心／綜合報導)"
+            android:layout_width="match_parent"
+            android:layout_height="475dp"
+            android:id="@+id/textView11"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:text="川普勝出不是只靠狂！原來是靠這原因"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>

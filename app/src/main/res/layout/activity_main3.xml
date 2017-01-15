@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="166dp"
+            android:src="@drawable/face_1637"
+            android:id="@+id/imageButton" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:text="影片標題1"
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:textSize="30sp"
+                android:weightSum="1"
+               />
+
+            <TextView
+                android:text="影片簡介1"
+                android:layout_width="234dp"
+                android:layout_height="match_parent"
+                android:id="@+id/textView4"
+                android:weightSum="1"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="168dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/face_1638"
+                android:id="@+id/imageButton" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="影片標題2"
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:textSize="30sp"
+                    android:weightSum="1" />
+
+                <TextView
+                    android:text="影片簡介2"
+                    android:layout_width="234dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView4"
+                    android:weightSum="1"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/face_1643"
+                android:id="@+id/imageButton" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <TextView
+                    android:text="影片標題3"
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:textSize="30sp"
+                    android:weightSum="1"
+                    android:layout_weight="1.50"
+                    android:layout_height="53dp" />
+
+                <TextView
+                    android:text="影片簡介3"
+                    android:layout_width="234dp"
+                    android:layout_height="124dp"
+                    android:id="@+id/textView4"
+                    android:weightSum="1"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
